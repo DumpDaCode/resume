@@ -1,0 +1,98 @@
+BasicInfo:
+  FirstName: Rajivranjan
+  LastName: Singh
+  Photo: img/avatar.jpg
+  Contacts:
+    - Icon: fas fa-phone
+      Info: +91 8850467598
+    - Icon: fas fa-envelope
+      Info: srajiv218@mkcl.org
+    - Icon: fas fa-globe
+      Info: rajivranjan-singh.in
+    - Icon: fas fa-map-marker-alt
+      Info: Navi Mumbai, India
+
+Profile: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+Experience:
+  - Employer: Maharahstra Knowledge Corporation Limited
+    Place: Pune, Maharashtra
+    Positions:
+      - Title: Project Associate
+        Date: Aug 2022 - Present
+        Details:
+          - Arcu vitae elementum curabitur vitae nunc sed velit
+          - Viverra aliquet eget sit amet tellus cras adipiscing
+          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+          - Nisl tincidunt eget nullam non nisi est
+          - Sed viverra tellus in hac.
+          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        Badges: ['Golang', 'Gin', 'Javascript', 'HTML', 'CSS', 'Git', 'VueJS']
+      - Title: Project trainee
+        Date: Aug 2021 - Aug 2022
+        Details:
+          - Nisl tincidunt eget nullam non nisi est
+          - Sed viverra tellus in hac.
+          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        Badges: ['Golang', 'Gin', 'MongoDB', 'SQL']
+
+Education:
+  - Course: Bahcelor of Engineering in Computer Science
+    Place: Mumbai University
+    Date: June 2017 - May 2021
+    Details: 
+    
+  - Course: Higher Secondary School Certificate
+    Place: St. Joseph High School And Junior College, Kalamboli
+    Date: June 2015 - May 2017
+    Details:
+     
+  - Course: Senior Secondary School Certificate
+    Place: St. Joseph High School And Junior College, Kalamboli
+    Date: June 2005 - May 2015
+    Details: 
+
+References:
+  - Name: Person One
+    Relation: Co-worker at Super Cool Company
+    Contacts:
+    - Icon: fas fa-phone
+      Info: +44 123 456 790
+    - Icon: fas fa-envelope
+      Info: contact@person-one.com
+    - Icon: fas fa-map-marker-alt
+      Info: Melbourne, Australia
+
+Skills:
+  - Family: Programming
+    Items:
+      - Golang
+      - Javascript
+      - CSS
+      - SQL
+      - Linux
+  - Family: Frameworks
+    Items:
+      - Gin
+      - Hugo
+      - VueJS
+  - Family: Developer Tools
+    Items:
+      - Git
+
+Languages:
+  - Name: Hindi
+    Level: Native
+  - Name: English
+    Level: C2
+  - Name: Marathi
+    Level: B1
+
+Certificates:
+  - ISTQB Tester Certification (2019)
+  - English Cambridge CAE (2009)
+
+Interests:
+  - Coding
+  - Reading
+  - Listening Music
