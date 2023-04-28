@@ -12,7 +12,7 @@ BasicInfo:
     - Icon: fas fa-map-marker-alt
       Info: Navi Mumbai, India
 
-Profile: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Profile: I'm currently working under Smart University Framework with technologies such as Go, VueJS, MySQL and MongoDB. There are other technologies too that I am continuously experimenting to broaden my mindset. I want to write software that can perform, evolve and is reliable over its existence.
 
 Experience:
   - Employer: Maharahstra Knowledge Corporation Limited
@@ -21,20 +21,18 @@ Experience:
       - Title: Project Associate
         Date: Aug 2022 - Present
         Details:
-          - Arcu vitae elementum curabitur vitae nunc sed velit
-          - Viverra aliquet eget sit amet tellus cras adipiscing
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges: ['Golang', 'Gin', 'Javascript', 'HTML', 'CSS', 'Git', 'VueJS']
+          - Designing of gin server for handling large volume of data.
+        Badges: ['Golang', 'Gin', 'MongoDB', 'SQL']
       - Title: Project trainee
         Date: Aug 2021 - Aug 2022
         Details:
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges: ['Golang', 'Gin', 'MongoDB', 'SQL']
+          - I undertook the responsibility of testing the client side of our applications and providing fixtures for the same. This has given me better insights to VueJS life cycle, Dom updation, Render function generation, Data vs computed vs methods for variables.
+          - I provided a Proof of Concept for processing a large volume of data. This has given me better insights of maps, garbage collection cycle, struct padding and reflection in Go.
+          - I also provided a Proof of Concept for ledger templates. This was done using go templates. Here I was able to learn more about the domain in which our project exists. This was a result of open discussion with my seniors that went beyond ledgers.
+          - I have gotten proficient with git and can now confidently look after merging of multiple feature branches, deciding the order of feature merge and better insights of cases where conflicts can arise.
+          - I also undertook the responsibility of guiding and mentoring three of our new Interns.
+          - Overall I have learned to look at bigger picture first before deciding on new initiatives and revisions to old workflows
+        Badges: ['Golang', 'Team Management', 'Javascript', 'Git', 'VueJS']
 
 Education:
   - Course: Bahcelor of Engineering in Computer Science
@@ -53,15 +51,8 @@ Education:
     Details: 
 
 References:
-  - Name: Person One
-    Relation: Co-worker at Super Cool Company
-    Contacts:
-    - Icon: fas fa-phone
-      Info: +44 123 456 790
-    - Icon: fas fa-envelope
-      Info: contact@person-one.com
-    - Icon: fas fa-map-marker-alt
-      Info: Melbourne, Australia
+  - Name: Vedant Madane
+    Relation: Co-worker at Maharashtra Knowledge Corporation Limited
 
 Skills:
   - Family: Programming
@@ -84,14 +75,15 @@ Languages:
   - Name: Hindi
     Level: Native
   - Name: English
-    Level: C2
+    Level: B2
   - Name: Marathi
-    Level: B1
+    Level: A2
 
 Certificates:
-  - ISTQB Tester Certification (2019)
-  - English Cambridge CAE (2009)
-
+  - Go, Basic by HackerRank.
+  - Go, Intermediate by HackerRank.
+  - Building Modern Applications with Go(Golang) by Udemy.
+  
 Interests:
   - Coding
   - Reading
