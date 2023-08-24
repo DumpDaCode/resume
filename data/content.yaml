@@ -12,7 +12,7 @@ BasicInfo:
     - Icon: fas fa-map-marker-alt
       Info: Navi Mumbai, India
 
-Profile: I'm a back-end developer with 2 years of experience in writing and developing go server. I had also worked on front end, specially VueJS. Currently, I'm employed at MKCL under Smart University Framework. I'm interested in solving complex problems.
+Profile: I'm a back-end developer with 2 years of experience in writing and developing Go servers. I have also worked on front end technologies, specializing in VueJS. Currently, I'm employed at MKCL, employing their Smart University Framework (SUF). I'm interested in solving complex problems and learning new technologies. Outside of work, I keep myself updated with F1/chess. I enjoy playing computer games and watching 8 out of 10 cats does countdown.
 
 Experience:
   - Employer: Maharahstra Knowledge Corporation Limited
@@ -21,17 +21,23 @@ Experience:
       - Title: Senior Project Associate I
         Date: Aug 2023 - Present
         Details:
-          - Continued working on project from previous role. It is a mixture of back end and guidance to juniors with various aspects of project.
+          - Continued working on project from previous role. 
+          - It is a mixture of back end and giving guidance to juniors with various aspects of project.
         Badges: ['Golang', 'Gin', 'MongoDB', 'SQL', 'Team Management']
       - Title: Project Associate
         Date: Aug 2022 - Aug 2023
         Details:
-          - Responsibilities were aligned with those of a pure back end role. Continued working on project from previous role. Understanding of layered architecture, batch processing, GoLang internals, query optimisation in mysql, Sprint and scrum flow, functional testing, unit testing were developed.
+          - Responsibilities were aligned with those of a pure back end role. 
+          - Continued working on project from previous role. 
+          - Understanding of layered architecture, batch processing, GoLang internals, query optimisation in mysql, Sprint and scrum flow, functional testing, unit testing were developed.
         Badges: ['Golang', 'Gin', 'MongoDB', 'SQL']
       - Title: Project trainee
         Date: Aug 2021 - Aug 2022
         Details:
-          - This was my fresher year. I had worked on two different projects. Initial responsibilities on first project included functional testing and bug fixing. Later was assigned with mentorship of MCA interns. Second project was more of a backend role and involved developing PoC for processing of large volume of data. Understanding of git was drastically improved during this period.
+          - This was my fresher year. I had worked on two different projects. 
+          - Initial responsibilities on first project included functional testing and bug fixing. Later was assigned with mentorship of MCA interns. 
+          - Second project was more of a backend role and involved developing PoC for processing of large volume of data. 
+          - Understanding of git was drastically improved during this period.
         Badges: ['Golang', 'Team Management', 'Javascript', 'Git', 'VueJS']
 
 Education:
