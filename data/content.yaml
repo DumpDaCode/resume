@@ -12,7 +12,7 @@ BasicInfo:
     - Icon: fas fa-map-marker-alt
       Info: Navi Mumbai, India
 
-Profile: I'm a back-end developer with 2 years of experience in writing and developing Go servers. I have also worked on front end technologies, specializing in VueJS. Currently, I'm employed at MKCL, employing their Smart University Framework (SUF). I'm interested in solving complex problems and learning new technologies. Outside of work, I keep myself updated with F1/chess. I enjoy playing computer games and watching 8 out of 10 cats does countdown.
+Profile: I'm a back-end developer with 2 years of experience in writing and developing Go servers. I have also worked on front end technologies, specializing in VueJS. Currently, I'm employed at MKCL, employing their Smart University Framework (SUF). I'm interested in solving complex problems and learning new technologies.
 
 Experience:
   - Employer: Maharahstra Knowledge Corporation Limited
@@ -21,44 +21,31 @@ Experience:
       - Title: Senior Project Associate I
         Date: Aug 2023 - Present
         Details:
-          - Continued working on project from previous role. 
-          - It is a mixture of back end and giving guidance to juniors with various aspects of project.
+          - Increased performance of the report generation module by 40% by providing assistance and peer reviews.
+          - Reviewed and implemented a unique list based flow which reduced data acquisition and increased processing by 20%.
+
         Badges: ['Golang', 'Gin', 'MongoDB', 'SQL', 'Team Management']
       - Title: Project Associate
         Date: Aug 2022 - Aug 2023
         Details:
-          - Responsibilities were aligned with those of a pure back end role. 
-          - Continued working on project from previous role. 
-          - Understanding of layered architecture, batch processing, GoLang internals, query optimisation in mysql, Sprint and scrum flow, functional testing, unit testing were developed.
+          - Developed a Proof of Concept for transforming data (ranging in lakh) into txt based result ledgers using go template.
+          - Implemented a sub-module for processing data into result data. The processing requires application of configurations that are either static, dynamic or rule based. The data ranges in lakhs and requires validation at various levels.
+          - Reviewed and replaced rule base engine with a yacc based evaluation library, which led to a 20% decrease in processing time.
         Badges: ['Golang', 'Gin', 'MongoDB', 'SQL']
       - Title: Project trainee
         Date: Aug 2021 - Aug 2022
         Details:
-          - This was my fresher year. I had worked on two different projects. 
-          - Initial responsibilities on first project included functional testing and bug fixing. Later was assigned with mentorship of MCA interns. 
-          - Second project was more of a backend role and involved developing PoC for processing of large volume of data. 
-          - Understanding of git was drastically improved during this period.
+          - Reduced frontend load by implementing tree generation code in the back end. This improved screen response time by 40%.
+          - Improved content editor by reviewing cases for space before and after svg based math equations making the addition and removal operation smoother.
+          - Implementation of password based authentication in our common service.
+          - Implementation of client side i18n by providing guidance to our interns.
         Badges: ['Golang', 'Team Management', 'Javascript', 'Git', 'VueJS']
 
 Education:
   - Course: Bahcelor of Engineering in Computer Science
     Place: Mumbai University
     Date: June 2017 - May 2021
-    Details: 
-    
-  - Course: Higher Secondary School Certificate
-    Place: St. Joseph High School And Junior College, Kalamboli
-    Date: June 2015 - May 2017
-    Details:
-     
-  - Course: Senior Secondary School Certificate
-    Place: St. Joseph High School And Junior College, Kalamboli
-    Date: June 2005 - May 2015
-    Details: 
-
-References:
-  - Name: Vedant Madane
-    Relation: Co-worker at Maharashtra Knowledge Corporation Limited
+    Details: Completed  with a GPA of 8.57/10.
 
 Skills:
   - Family: Programming
@@ -79,18 +66,18 @@ Skills:
 
 Languages:
   - Name: Hindi
-    Level: Native
   - Name: English
-    Level: B2
   - Name: Marathi
-    Level: A2
 
 Certificates:
   - Go, Basic by HackerRank.
   - Go, Intermediate by HackerRank.
   - Building Modern Applications with Go(Golang) by Udemy.
+  - 'Docker and Kubernetes: The complete guide by Udemy'
   
 Interests:
+  - F1
+  - Chess
   - Coding
   - Reading
-  - Listening Music
+  - Music
