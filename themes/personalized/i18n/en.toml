@@ -1,8 +1,5 @@
-[position]
-other = "Software Developer"
-
-[projects]
-other = "Projects"
+[profile]
+other = "Profile"
 
 [experience]
 other = "Experience"
@@ -19,8 +16,8 @@ other = "Skills"
 [languages]
 other = "Languages"
 
-[certificates]
-other = "Certificates"
+[diplomas]
+other = "Diplomas"
 
 [interests]
 other = "Interests"

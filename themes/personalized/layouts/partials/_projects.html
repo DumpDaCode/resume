@@ -1,0 +1,13 @@
+{{ if .Projects }}
+<div class="section">
+    <div class="section__title">{{ i18n "projects" }}</div>
+    <div class="section__list">
+        {{ range .Projects}}
+        <div class="section__list-item">
+            <div class="name">{{ .Title | safeHTML }}</div>
+            <div class="text">{{ .Description | safeHTML }}</div>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

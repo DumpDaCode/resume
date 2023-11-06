@@ -1,0 +1,21 @@
+{{ $data := or (index .Site.Data .Site.Language.Lang).content .Site.Data.content }}
+{{ .Scratch.Set "data" $data }}
+<!DOCTYPE html>
+<html lang="en">
+{{ partial "head.html" . }}
+
+<body>
+    <div class="container">
+        <div class="header">
+            {{ partial "_about.html" $data }}
+        </div>
+        <div class="details">
+            {{ partial "_projects.html" $data }}
+            {{ partial "_experience.html" $data }}
+            {{ partial "_education.html" $data }}
+            {{ partial "_skills.html" $data }}
+            {{ partial "_others.html" $data }}
+        </div>
+    </div>
+    </div>
+</body>

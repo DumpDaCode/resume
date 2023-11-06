@@ -1,0 +1,30 @@
+{{ if .Certificates }}
+<div class="section">
+    <div class="section__title">
+        {{ i18n "certificates"}}
+    </div>
+    <div class="section__list">
+        <div class="section__list-item">
+        {{ range .Certificates }}
+            <div>
+                {{ . }}
+            </div>
+        {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}
+{{ if .Interests }}
+<div class="section">
+    <div class="section__title">
+        {{ i18n "interests"}}
+    </div>
+    <div class="section__list">
+        {{ range .Interests }}
+        <div class="section__list-item">
+            {{ . }}
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,28 @@
+{{ if .BasicInfo}}
+<div class="full-name">
+    <span class="first-name">{{ .BasicInfo.FirstName }}</span>
+
+    <span class="last-name">{{ .BasicInfo.LastName }}</span>
+</div>
+<div class="contact-info">
+    <div>
+        <span class="email">Email: </span>
+        <span class="email-val">{{ .BasicInfo.Mail | safeHTML}}</span>
+        <span class="separator"></span>
+        <span class="phone">Phone: </span>
+        <span class="phone-val">{{ .BasicInfo.Phone | safeHTML }}</span>
+        <span class="separator"></span>
+        <span class="phone-val">{{ .BasicInfo.Location | safeHTML }}</span>
+    </div>
+    <div>
+        <span class="phone">Linkedin: </span>
+        <span class="phone-val">{{ .BasicInfo.Social | safeHTML }}</span>
+    </div>
+</div>
+{{ if .Profile }}
+<div class="about">
+    <span class="position">{{ i18n "position" }}</span>
+    <span class="desc"> {{ .Profile | safeHTML | emojify }} </span>
+</div>
+{{ end }}
+{{ end }}
