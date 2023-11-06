@@ -1,5 +1,8 @@
-[profile]
-other = "Profile"
+[position]
+other = "Software Developer"
+
+[projects]
+other = "Projects"
 
 [experience]
 other = "Experience"

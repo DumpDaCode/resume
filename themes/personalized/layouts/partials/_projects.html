@@ -4,9 +4,8 @@
     <div class="section__list">
         {{ range .Projects}}
         <div class="section__list-item">
-            <div class="name">{{ .Title
-                | safeHtml }}</div>
-            <div class="text">{{ .Description | safeHtml}}</div>
+            <div class="name">{{ .Title | safeHTML }}</div>
+            <div class="text">{{ .Description | safeHTML }}</div>
         </div>
         {{ end }}
     </div>

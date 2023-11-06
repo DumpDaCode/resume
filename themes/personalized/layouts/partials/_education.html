@@ -4,11 +4,11 @@
     <div class="section__list">
         <div class="section__list-item">
             {{ range .Education }}
-            <div class="right">
+            <div class="left">
                 <div class="name">{{ .Course | safeHTML}}</div>
                 <div class="desc">{{ .Details | safeHTML}}</div>
             </div>
-            <div class="left">
+            <div class="right">
                 <div class="addr">{{ .Place | safeHTML}}</div>
                 <div class="duration">{{ .Date | safeHTML}}</div>
             </div>

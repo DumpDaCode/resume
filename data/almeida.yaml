@@ -1,10 +1,16 @@
 BasicInfo:
   FirstName: Rajivranjan
   LastName: Singh
-  Phone: +91 8850467598
-  Mail: srajiv218@mkcl.org
-  Social: www.linkedin.com/in/rajiv162
-  Location: Navi Mumbai, India
+  Photo: img/avatar.jpg
+  Contacts:
+    - Icon: fas fa-phone
+      Info: +91 8850467598
+    - Icon: fas fa-envelope
+      Info: srajiv218@mkcl.org
+    - Icon: fas fa-globe
+      Info: www.linkedin.com/in/rajiv162/
+    - Icon: fas fa-map-marker-alt
+      Info: Navi Mumbai, India
 
 Profile: I'm a back-end developer with 2 years of experience in writing and developing Go servers. I have also worked on front end technologies, specializing in VueJS. Currently, I'm employed at MKCL, employing their Smart University Framework (SUF). I'm interested in solving complex problems and learning new technologies.
 
@@ -17,12 +23,15 @@ Experience:
         Details:
           - Increased performance of the report generation module by 40% by providing assistance and peer reviews.
           - Reviewed and implemented a unique list based flow which reduced data acquisition and increased processing by 20%.
+
+        Badges: ['Golang', 'Gin', 'MongoDB', 'SQL', 'Team Management']
       - Title: Project Associate
         Date: Aug 2022 - Aug 2023
         Details:
           - Developed a Proof of Concept for transforming data (ranging in lakh) into txt based result ledgers using go template.
           - Implemented a sub-module for processing data into result data. The processing requires application of configurations that are either static, dynamic or rule based. The data ranges in lakhs and requires validation at various levels.
           - Reviewed and replaced rule base engine with a yacc based evaluation library, which led to a 20% decrease in processing time.
+        Badges: ['Golang', 'Gin', 'MongoDB', 'SQL']
       - Title: Project trainee
         Date: Aug 2021 - Aug 2022
         Details:
@@ -30,6 +39,7 @@ Experience:
           - Improved content editor by reviewing cases for space before and after svg based math equations making the addition and removal operation smoother.
           - Implementation of password based authentication in our common service.
           - Implementation of client side i18n by providing guidance to our interns.
+        Badges: ['Golang', 'Team Management', 'Javascript', 'Git', 'VueJS']
 
 Education:
   - Course: Bahcelor of Engineering in Computer Science
@@ -37,57 +47,27 @@ Education:
     Date: June 2017 - May 2021
     Details: Completed  with a GPA of 8.57/10.
 
-Projects: 
-  - Title: Higher Education Transformation Program
-    Description: An umbrella project with modules corresponding to activities in eduaction institutes.
-  - Title: LearniCo
-    Description: A learning management system for junior colleges. 
-
 Skills:
   - Family: Programming
     Items:
-      - Name: Golang
-        Rating: 4
-        OutOf : 5
-      - Name: Javascript
-        Rating: 4
-        OutOf : 5
-      - Name: CSS
-        Rating: 3
-        OutOf : 5
-      - Name: SQL
-        Rating: 4
-        OutOf : 5
-      - Name: Linux
-        Rating: 3
-        OutOf : 5
+      - Golang
+      - Javascript
+      - CSS
+      - SQL
+      - Linux
   - Family: Frameworks
     Items:
-      - Name: Gin
-        Rating: 3
-        OutOf : 5
-      - Name: Hugo
-        Rating: 3
-        OutOf : 5
-      - Name: VueJS
-        Rating: 3
-        OutOf : 5
+      - Gin
+      - Hugo
+      - VueJS
   - Family: Developer Tools
     Items:
-      - Name: Git
-        Rating: 4
-        OutOf : 5
-  - Family: Others
-    Items:
-    - Name: Hindi
-      Rating: 4
-      OutOf: 5
-    - Name: English
-      Rating: 3.5
-      OutOf: 5
-    - Name: Marathi
-      Rating: 2.5
-      OutOf: 5
+      - Git
+
+Languages:
+  - Name: Hindi
+  - Name: English
+  - Name: Marathi
 
 Certificates:
   - Go, Basic by HackerRank.
@@ -96,4 +76,8 @@ Certificates:
   - 'Docker and Kubernetes: The complete guide by Udemy'
   
 Interests:
-  - F1, Chess, Coding, Reading, Music
+  - F1
+  - Chess
+  - Coding
+  - Reading
+  - Music

@@ -4,7 +4,7 @@
     <div class="skills">
         {{ range .Skills }}
         {{ .Family }}
-        <div class="skills__item"></div>
+        <div class="skills__item">
             {{ range .Items }}
             <div class="left">
                 <div class="name">
@@ -12,8 +12,9 @@
                 </div>
             </div>
             <div class="right">
+                {{ $rating := .Rating }}
                 {{ range $id := seq .OutOf}}
-                <input id="ck{{$id}}" type="checkbox" {{ if $id le .Rating }} checked {{ end }}/>
+                <input id="ck{{$id}}" type="checkbox" {{ if le $id $rating }} checked {{ end }}/>
                 <label for="ck{{$id}}"></label>
                 {{ end }}
             </div>

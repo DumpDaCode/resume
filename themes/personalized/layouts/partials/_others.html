@@ -4,11 +4,13 @@
         {{ i18n "certificates"}}
     </div>
     <div class="section__list">
-        {{ range .Certificates }}
         <div class="section__list-item">
-            {{ . }}
-        </div>
+        {{ range .Certificates }}
+            <div>
+                {{ . }}
+            </div>
         {{ end }}
+        </div>
     </div>
 </div>
 {{ end }}
