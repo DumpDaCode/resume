@@ -1,0 +1,25 @@
+{{ if .Skills }}
+<div class="section">
+    <div class="section__title">{{ i18n "skills"}}</div>
+    <div class="skills">
+        {{ range .Skills }}
+        {{ .Family }}
+        <div class="skills__item"></div>
+            {{ range .Items }}
+            <div class="left">
+                <div class="name">
+                    {{ .Name }}
+                </div>
+            </div>
+            <div class="right">
+                {{ range $id := seq .OutOf}}
+                <input id="ck{{$id}}" type="checkbox" {{ if $id le .Rating }} checked {{ end }}/>
+                <label for="ck{{$id}}"></label>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

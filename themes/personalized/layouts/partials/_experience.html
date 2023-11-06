@@ -1,0 +1,22 @@
+{{ if .Experience }}
+<div class="section">
+    <div class="section__title">Experience</div>
+    <div class="section__list">
+        <div class="section__list-item">
+            {{ range .Experience}}
+                <div class="left">
+                    <div class="name">{{ .Employer | safeHTML }}</div>
+                    <div class="addr">{{ .Place | safeHTML }}</div>
+                </div>
+                <div class="right">
+                    {{ range .Positions }}
+                    <div class="name">{{ .Title }}</div>
+                    <div class="duration">{{ .Date }}</div>
+                    <div class="desc">{{ .Details }}</div>
+                    {{ end }}
+                </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}

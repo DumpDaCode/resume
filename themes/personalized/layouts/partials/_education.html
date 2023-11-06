@@ -1,0 +1,19 @@
+{{ if .Education }}
+<div class="section">
+    <div class="section__title">{{ i18n "education"}}</div>
+    <div class="section__list">
+        <div class="section__list-item">
+            {{ range .Education }}
+            <div class="right">
+                <div class="name">{{ .Course | safeHTML}}</div>
+                <div class="desc">{{ .Details | safeHTML}}</div>
+            </div>
+            <div class="left">
+                <div class="addr">{{ .Place | safeHTML}}</div>
+                <div class="duration">{{ .Date | safeHTML}}</div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}
